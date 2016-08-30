@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_dJC7wW37EeaD8Y2AVJcsjw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_dJC7wm37EeaD8Y2AVJcsjw" bindingContexts="_dJC7xG37EeaD8Y2AVJcsjw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Hello_World.java&quot; tooltip=&quot;Hello_World/src/Hello_World.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Hello_World/src/Hello_World.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestCode.java&quot; tooltip=&quot;TestJar/src/TestCode.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/TestJar/src/TestCode.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Hello_World.java&quot; tooltip=&quot;Hello_World/src/Hello_World.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Hello_World/src/Hello_World.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_dJC7wm37EeaD8Y2AVJcsjw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_d-v0s237EeaD8Y2AVJcsjw" label="%trimmedwindow.label.eclipseSDK" x="175" y="175" width="1024" height="768">
@@ -84,7 +84,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_eg44fm37EeaD8Y2AVJcsjw" elementId="org.eclipse.egit.ui.RepositoriesView" toBeRendered="false" ref="_eg44cW37EeaD8Y2AVJcsjw"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_eg44f237EeaD8Y2AVJcsjw" containerData="7500" selectedElement="_eg44iW37EeaD8Y2AVJcsjw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_eg44f237EeaD8Y2AVJcsjw" containerData="7500" selectedElement="_eg44gG37EeaD8Y2AVJcsjw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_eg44gG37EeaD8Y2AVJcsjw" containerData="7500" selectedElement="_eg44gW37EeaD8Y2AVJcsjw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_eg44gW37EeaD8Y2AVJcsjw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_egJRkG37EeaD8Y2AVJcsjw"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_eg44gm37EeaD8Y2AVJcsjw" containerData="2500">
@@ -144,12 +144,18 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_egJRkG37EeaD8Y2AVJcsjw" elementId="org.eclipse.ui.editorss" selectedElement="_egJRkW37EeaD8Y2AVJcsjw">
-      <children xsi:type="basic:PartStack" xmi:id="_egJRkW37EeaD8Y2AVJcsjw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_RvhM0G39EeaD8Y2AVJcsjw">
+      <children xsi:type="basic:PartStack" xmi:id="_egJRkW37EeaD8Y2AVJcsjw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_vfUgsG7FEea1SL_vJQEzkA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_RvhM0G39EeaD8Y2AVJcsjw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Hello_World.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Hello_World.java&quot; partName=&quot;Hello_World.java&quot; title=&quot;Hello_World.java&quot; tooltip=&quot;Hello_World/src/Hello_World.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Hello_World/src/Hello_World.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;253&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Hello_World.java&quot; partName=&quot;Hello_World.java&quot; title=&quot;Hello_World.java&quot; tooltip=&quot;Hello_World/src/Hello_World.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Hello_World/src/Hello_World.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;186&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_vfUgsG7FEea1SL_vJQEzkA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TestCode.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestCode.java&quot; partName=&quot;TestCode.java&quot; title=&quot;TestCode.java&quot; tooltip=&quot;TestJar/src/TestCode.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestJar/src/TestCode.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;290&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -297,7 +303,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eN2Aom37EeaD8Y2AVJcsjw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_eOI7kG37EeaD8Y2AVJcsjw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_dLksXG37EeaD8Y2AVJcsjw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QolAkG7GEeaHAew_dmJP3g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_dLksXG37EeaD8Y2AVJcsjw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eN_KkG37EeaD8Y2AVJcsjw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -321,7 +327,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eN_KlG37EeaD8Y2AVJcsjw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_eOI7mm37EeaD8Y2AVJcsjw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_dLkr0237EeaD8Y2AVJcsjw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QorHMG7GEeaHAew_dmJP3g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_dLkr0237EeaD8Y2AVJcsjw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eN_KlW37EeaD8Y2AVJcsjw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -355,6 +361,16 @@
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_K2R5kG38EeaD8Y2AVJcsjw" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
+        <persistedState key="introConfigId" value="org.eclipse.ui.intro.universalConfig"/>
+        <persistedState key="lastPageId" value="qroot"/>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_f0O9UG7EEea1SL_vJQEzkA" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
+        <persistedState key="introConfigId" value="org.eclipse.ui.intro.universalConfig"/>
+        <persistedState key="lastPageId" value="qroot"/>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_SG4KkG7GEeaHAew_dmJP3g" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
         <persistedState key="introConfigId" value="org.eclipse.ui.intro.universalConfig"/>
         <persistedState key="lastPageId" value="qroot"/>
         <tags>Draggable</tags>
