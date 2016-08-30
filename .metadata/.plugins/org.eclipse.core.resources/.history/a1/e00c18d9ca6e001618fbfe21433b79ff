@@ -1,0 +1,6 @@
+//Leonard Wang 8/30/16
+public class Calculate {
+	static int Square(int a){
+		return a*a;
+	}
+}
