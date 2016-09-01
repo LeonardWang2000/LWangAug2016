@@ -16,7 +16,7 @@ public class Calculate {
 		return (180*a)/3.14159;
 	}
 	public static double toRadians(double a){
-		return 3.14159/(180*a);
+		return 3.14159*a/(180);
 	}
 	public static double discriminant(double a, double b, double c){
 		return((b*b)-(4*a*c));
@@ -25,13 +25,13 @@ public class Calculate {
 		int d = (a*c) + b;
 		return (d + "/" + c);
 	}
-	public static String toMixedNUm(int a, int b){
+	public static String toMixedNum(int a, int b){
 		int c = a/b;
 		int d = a%b;
 		return(c + "_" + d + "/" + b);
 	}
 	public static String foil( int a, int b, int c, int d, String e){
-		return((a*c) + e +"^2" + (b*c)+(d*a) + e + d*b);
+		return((a*c) + e +"^2  + " + ((b*c)+(d*a)) + e + " + " +  d*b);
 	}
 	public static boolean isDivisibleBy(int a, int b){
 		if(a%b ==0){
@@ -49,21 +49,38 @@ public class Calculate {
 			return a;
 		}
 	}
-	public static boolean max(int a, int b){
+	public static int max(int a, int b){
 		if(a>b){
-			return true;
-		}
-		else if(b>a){
-			return false;
+			return a;
 		}
 		else{
-			return 
+			return b;
 		}
 	}
-	public static boolean max(double a, double b, double c){
+	public static double max(double a, double b, double c){
 		if(a>b && a>c){
-			
+			return a;
+		}
+		else if(b>a && b>c){
+			return b;
+		}
+		else{
+			return c;
 		}
 	}
-	public
+	public static double min(double a, double b){
+		if(a<b){
+			return a;
+		}
+		else{
+			return b;
+		}
+	}
+	public static double round2(double a){
+		 a = a*100;
+		 a = (int) a;
+		 a = (double) a;
+		 a = a/100;
+		 
+	}
 }
